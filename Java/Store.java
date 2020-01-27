@@ -18,17 +18,21 @@ public class Store extends Cookies {
     public static void main(String[] args) {
         ArrayList<Cookies> cookies = new ArrayList<Cookies>();
 
-        Cookies item1 = new Cookies("Chocolate Swirl", 8, 20);
-        Cookies item2 = new Cookies("Mint Chocolate", 9, 12);
-        Cookies item3 = new Cookies("Peanut Butter Ball", 12, 3);
-        Cookies item4 = new Cookies("Coconut Creme", 6, 10);
-        Cookies item5 = new Cookies("Jelly Fillers", 15, 30);
+        Cookies item1 = new Cookies("Girl Scout S'mores", 8, 20);
+        Cookies item2 = new Cookies("Lemonades", 9, 12);
+        Cookies item3 = new Cookies("Shortbread", 12, 3);
+        Cookies item4 = new Cookies("Thin Mints", 6, 10);
+        Cookies item5 = new Cookies("Peanut Butter Patties", 15, 30);
+        Cookies item6 = new Cookies("Caramel deLites", 15, 30);
+        Cookies item7 = new Cookies("Peanut Butter Sandwich", 60, 30);
 
         cookies.add(item1);
         cookies.add(item2);
         cookies.add(item3);
         cookies.add(item4);
         cookies.add(item5);
+        cookies.add(item6);
+        cookies.add(item7);
 
         System.out.println("Good Morning.");
         System.out.println("Would you like to buy any girl scout cookies? ");
